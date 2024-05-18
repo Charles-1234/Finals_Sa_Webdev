@@ -1249,6 +1249,15 @@ section {
     margin-left: 75px;
   }
 }
+@media (max-width: 360px) {
+  .pricing .box {
+    width: 100%; /* I-adjust ang width para maging responsive */
+    max-width: 400px; /* Maximum width */
+    height: 100vh; /* Height ay sakto sa viewport height */
+    margin-left: 25px;
+  }
+}
+
 
 
 .pricing .box {
