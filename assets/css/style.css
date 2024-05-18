@@ -827,6 +827,28 @@ section {
   
   
 }
+@media (max-width: 360px) {
+  
+  .container1{
+    width: 270px;
+    height:300px; /* Full viewport height */
+  }
+  .box1 {
+    padding-top: 50px;
+    padding-left: 60px;
+    text-align: left;
+    font-size: 25px;
+    transition: 0.3s;
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.5);
+    margin-left: 30px;
+    width: 400px;
+    height: 300px;
+  }
+  
+  
+}
 
 
 
